@@ -1,4 +1,4 @@
-Report and analysis of the case: Climate watch <br> Author: Sander van Dam <br> Date: 05/11/2026 <br>\
+Report and analysis of the case: Climate watch <br> Author: Sander van Dam <br> Date: 05/11/2026 <br>
 # Report of global temperatures
 The goal of the case was to analyze trends in global temperature changes over time and to visualise this data using tools like python, JupyterNotebook, SQL and MS Power BI. The case was analyzed by importing the provided csv files into an SQL Database using MySQL. Empty values were transformed into NULL (or NaN in python) to prevent unforeseen skewing in the dataset if data were to be transformed into 0. Additionally, a subset of the data was created using all entries from 1980 onward.
 ## Average temperature shifts
@@ -35,3 +35,4 @@ The graphs above display the average temperature of the 10 warmest and 10 coldes
 One of the most importantly contributing factors of this climate change is the emission of greenhouse gases. The emission of greenhouse gases has said to have a very large impact on the global climate because these gases get trapped in the earths atmosphere and create a global warming effects by this. The biggest contributer of these gases is carbondioxide also known as CO2. To investigate the impact of Co2 emissions on the global temperature we first need to see what the levels of released CO2 looks like the last centuries:
 Graph 7: CO2 emission per year (in million tonnes)<br/><br/>
 ![Global CO2 emissions](https://github.com/SanderVD1999/case-climate-watch-sander/blob/main/assets/Schermafbeelding%202026-11-06%20155607.png)<br/><br/>
+As seen in this graph the global emission of CO2 has seen a rapid growth throughout the last 250 years. Especially since 1950 the growth has more than quadrupled from about 200 million tonnes to 1000 million tonnes per year. This proves a correlation between global co2 emissions and temperature risings.
